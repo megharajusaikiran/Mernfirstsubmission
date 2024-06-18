@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .whole{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+        .imh{
+            height:90px;
+            width:90px
+        }
+        .ds{
+            height:36px
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <form class="whole">
+        <img class="imh" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSLU5_eUUGBfxfxRd4IquPiEwLbt4E_6RYMw&s"/>
+        <label for="username"><b>Username</b></label>
+        <input id="username" placeholder="Enter Username"/>
+        <label for="password"><b>password</b></label>
+        <input id="password" placeholder="Enter Password"/>
+        <button style="margin-top: 18px; color:white; background-color: darkolivegreen; border-style: none; padding:6px; width:90px;">Login</button>
+        <div>
+            <input type="checkbox"/>
+        <label>Remember me</label>
+        </div>
+        <div style="display:flex; flex-direction:row; justify-content: space-between; background-color: #dedcdc; height: 60px; width:300px">
+            <button class="ds btn btn-danger">Cancel</button>
+            <p>forget <a style="text-decoration: underline;">Password?</a></p>
+        </div>
+        
+    </form>
+</body>
+</html>
